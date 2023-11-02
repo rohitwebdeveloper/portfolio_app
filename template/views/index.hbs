@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{>head}}
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            {{>navbar}}
+            <div class="row">
+                <div class="col1">
+                    <div class="h-primary">
+                        <h1>Light</h1>
+                        <h1>Durable</h1>
+                        <h1>Comfortable</h1>
+                    </div>
+                    <div class="para">
+                        <p>Lorem dolor pisicing elit. </p>
+                        <p>Great ipsum consectetur elit. </p>
+                        <p>Lorem, dolor sit amet aursfess. </p>
+                    </div>
+                    <div><button class="btn">Order Now !</button></div>
+                </div>
+                <div class="col2">
+                    <div>
+                        <img src="img/sports.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+  
+
+  {{!-- Categories --}}
+
+    <div class="h-secondary">
+        <h2>Categories</h2>
+    </div>
+    <div class="row">
+        <div class="category">
+            <div class="image imagebg">
+                <img src="img/top1.png" alt="">
+            </div>
+            <div class="cat-name">
+                <button class="btn">Sport</button>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image imagebg">
+                <img src="img/formal.png" alt="">
+            </div>
+            <div class="cat-name">
+                <button class="btn">Formal</button>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image imagebg">
+                <img src="img/casual.png" alt="">
+            </div>
+            <div class="cat-name">
+                <button class="btn">Casual</button>
+            </div>
+        </div>
+    </div>
+
+    {{!-- Top Rated  --}}
+    <div class="h-secondary">
+        <h2>Top-Rated Products</h2>
+    </div>
+    <div class="row">
+        <div class="category">
+            <div class="image">
+                <img src="img/casual.png" alt="">
+            </div>
+            <div class="rating">
+                Rating: <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star-half-stroke"></i></span>
+            </div>
+            <div class="price">
+                Price: $ 8.99
+            </div>
+            <div>
+                <button class="btn-small">Buy Now</button>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image">
+                <img src="img/run.png" alt="" width="50%">
+            </div>
+            <div class="rating">
+                Rating: <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+            </div>
+            <div class="price">
+                Price: $ 8.99
+            </div>
+            <div>
+                <button class="btn-small">Buy Now</button>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image">
+                <img src="img/top2.png" alt="">
+            </div>
+            <div class="rating">
+                Rating: <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+            </div>
+            <div class="price">
+                Price: $ 8.99
+            </div>
+            <div>
+                <button class="btn-small">Buy Now</button>
+            </div>
+        </div>
+        <div class="category">
+            <div class="image">
+                <img src="img/top3.png" alt="">
+            </div>
+            <div class="rating">
+                Rating: <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+                <span><i class="fa-sharp fa-solid fa-star"></i></span>
+            </div>
+            <div class="price">
+                Price: $ 8.99
+            </div>
+            <div>
+                <button class="btn-small">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    {{!-- offer and deals --}}
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <div class="h-primary">
+                    <h2>Big Deal</h2>
+                    <h1>50%</h1>
+                    <h1>Off</h1>
+                </div>
+                <div class="para">
+
+                </div>
+                <div><button class="btn">Explore</button></div>
+            </div>
+            <div class="col2">
+                <div>
+                    <img src="img/top4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{{!-- brands --}}
+    <div class="h-secondary">
+        <h2>Sponsors</h2>
+    </div>
+    <div class="sponsors">
+        <div class="brands"><img src="img/puma.png" alt=""></div>
+        <div class="brands"><img src="img/adidas.png" alt=""></div>
+        <div class="brands"><img src="img/dc.png" alt=""></div>
+        <div class="brands"><img src="img/nike.png" alt=""></div>
+        <div class="brands"><img src="img/nb.png" alt=""></div>
+        <div class="brands"><img src="img/reebok.png" alt=""></div>
+    </div>
+
+    {{!-- footer --}}
+    {{>footer}}
+     <script src="script/script.js"></script>
+    </script>
+</body>
+
+</html>

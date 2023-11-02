@@ -1,0 +1,520 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    height: 100vh;
+}
+
+
+/* -------HEADER AND NAVIGATION----- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 2.2rem;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+}
+
+.my {
+    color: rgb(252, 127, 10);
+}
+
+.shoe {
+    color: rgb(255, 253, 250);
+    font-style: italic;
+}
+
+.menulogo {
+    margin-top: 15px;
+    margin-right: 30px;
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-top: 15px;
+}
+
+.ullist {
+    margin-right: 30px;
+}
+
+.ullist li {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 23px;
+}
+
+a {
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(252, 127, 10);
+    cursor: pointer;
+}
+
+.container {
+    background: radial-gradient(gray, rgb(34, 32, 32), black);
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1350px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 60px 0px;
+}
+
+.para {
+    font-size: 1rem;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* ------BUTTONS---- */
+
+.btn {
+    padding: 6px 34px;
+    border-radius: 20px;
+    background-color: rgb(252, 127, 10);
+    border: 2px solid rgb(252, 127, 10);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.btn-small {
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: rgb(252, 127, 10);
+    border: 2px solid rgb(252, 127, 10);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+
+
+.btn:hover,
+.btn-small:hover {
+    color: rgb(10, 1, 1);
+    background-color: rgb(255, 249, 247);
+    cursor: pointer;
+}
+
+
+
+/* ------HEADINGS----- */
+
+.h-primary {
+    font-size: 1.7rem;
+    color: white;
+}
+
+.h-primary h2 {
+    color: rgb(252, 127, 10);
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.h-secondary {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+/* ------CATEGORY SECTION0---- */
+
+
+.category {
+    flex-direction: column;
+    transition: transform 0.3s;
+    margin: auto 5px auto 5px;
+}
+
+.category:hover {
+    transform: translateY(-9px);
+}
+
+.cat-name {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+
+.image {
+    margin: auto;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(201, 192, 192);
+
+
+}
+
+.imagebg {
+    background: radial-gradient(rgb(255, 255, 255), rgb(221, 218, 218));
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 3px;
+}
+
+.image img {
+    max-width: 285px;
+    width: 100%;
+    height: 50%;
+}
+
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.rating {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.col-1 {
+    margin-left: 30%;
+}
+
+.col2 img {
+    max-width: 360px;
+    width: 100%;
+}
+
+
+
+
+/* ------SPONSORS---- */
+
+.sponsors {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1350px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.brands img {
+    width: 120px;
+    filter: opacity(80%);
+}
+
+.brands img:hover {
+    filter: opacity(100%);
+}
+
+
+
+/* -----FOOTER----- */
+
+footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 0%;
+}
+
+.row div {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+
+/* ------ SOCIAL MEDIA ICONS----- */
+
+.fa-star,
+.fa-star-half-stroke {
+    color: rgb(252, 127, 10);
+    max-width: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.social-icons i {
+    color: white;
+    padding: 0% 20px;
+}
+
+.fa-facebook:hover {
+    color: rgb(13, 145, 253);
+}
+
+.fa-twitter:hover {
+    color: rgb(13, 145, 253);
+}
+
+.fa-instagram:hover {
+    color: rgb(221, 78, 240);
+}
+
+.fa-youtube:hover {
+    color: rgb(238, 45, 20);
+}
+
+.fa-linkedin:hover {
+    color: rgb(34, 73, 145);
+}
+
+.fa-discord:hover {
+    color: rgb(127, 118, 202);
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1350px;
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+
+hr {
+    color: white;
+    height: 2px;
+}
+
+
+-----LOGIN FORM-----
+
+.form{
+    max-width: 1350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container{
+    position: relative;
+    width: 350px;
+    margin: 150px auto;
+    height: 420px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    border-radius: 7%;
+}
+
+.btn-box{
+    width: 70%;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+}
+
+.btn-back{
+   background-color: rgb(252, 127, 10);
+    position:absolute;
+    top: 20px;
+    left: 40px;
+    height: 40px;
+    width: 122.5px;
+    border-radius:23px;
+    transition: 0.5s;
+}
+.button{
+    position: relative;
+    font-size: 1.3rem;
+    width: 50%;
+    border: none;
+    outline: none;
+    background: transparent ;
+    color: white;
+}
+
+.login{
+    color: white;
+    position: absolute;
+    left: 20px;
+    width: 300px;
+    top: 90px;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+.register{
+    color: white;
+    position:absolute;
+    left: 450px;
+    width: 300px;
+    top: 80px;
+    font-size: 1rem;
+    transition: 0.4s;
+
+}
+
+.login-item{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  rgb(252, 127, 10);
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+}
+
+.submit{
+    border: 1px solid black;
+    background-color:  rgb(250, 105, 9);
+    color: black;
+    border-radius: 20px;
+    display: block;
+    width: 150px;
+    margin: auto;
+    margin-top: 35px;
+    font-size: 1.1rem;
+    padding: 5px 0px;
+    outline: none;
+}
+
+
+.close{
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+
+/* MEDIA QUERY ---at 850px ---  START HERE */
+
+@media (max-width:850px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    .row {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .ullist {
+        background-color: black;
+        position:fixed;
+        top: 70px;
+        right: -100%;
+        width: 100%;
+        transition: 0.3s;
+        margin-right: 0px;
+    }
+
+    .ullist li {
+        display: block;
+        text-align: center;
+
+    }
+
+    .menulogo {
+        display: block;
+        filter: invert(100%);
+    }
+
+
+    .ullist.active {
+        right: 0%;
+    }
+
+    .brands img {
+        width: 78px;
+    }
+/* 
+
+    .form-container{
+        top: 150px;
+        width: 350px;
+        margin: auto;
+        height: 420px;
+} */
+}
+
+/* MEDIA QUERY ---at 575px ---  START HERE */
+
+@media (max-width:575px) {
+    html {
+        font-size: 9px;
+    }
+
+    .brands img {
+        width: 80px;
+        margin: 0px 13px 5px 13px;
+    }
+
+    .h-primary {
+        text-align: center;
+    }
+
+    .h-primary h2 {
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+    }
+
+    button.btn {
+        margin-left: 20px;
+    }
+}
